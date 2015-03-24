@@ -7,8 +7,8 @@ if(typeof VMM != 'undefined') {
 			wikipedia: "no"
 		},
 		date: {
-			month: ["Januar", "Februar", "Mars", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Desember"],
-			month_abbr: ["Jan.", "Feb.", "Mars", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sep.", "Okt.", "Nov.", "Des."],
+			month: ["januar", "februar", "mars", "april", "mai", "juni", "juli", "august", "september", "oktober", "november", "desember"],
+			month_abbr: ["jan.", "feb.", "mars", "apr.", "mai", "juni", "juli", "aug.", "sep.", "okt.", "nov.", "des."],
 			day: ["Søndag", "Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag", "Lørdag"],
 			day_abbr: ["Søn.", "Man.", "Tir.", "Ons.", "Tor.", "Fre.", "Lør."]
 		}, 
@@ -17,7 +17,7 @@ if(typeof VMM != 'undefined') {
 			month_short: "mmm",
 			month: "mmmm yyyy",
 			full_short: "d. mmm",
-			full: "d. mmmm',' yyyy",
+			full: "d. mmmm yyyy",
 			time_short: "HH:MM:ss",
 			time_no_seconds_short: "HH:MM",
 			time_no_seconds_small_date: "HH:MM'<br/><small>'d. mmmm',' yyyy'</small>'",
